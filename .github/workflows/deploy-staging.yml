@@ -6,7 +6,6 @@ on:
 
 jobs:
   deploy:
-    needs: test_pull_request
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
