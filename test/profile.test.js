@@ -2,7 +2,7 @@ const request = require('supertest');
 const app = require('../src/app');
 
 test('Should get user profile by user instagram username', async () => {
-  const testUserName = 'mufasatundeeednut';
+  const testUserName = 'darkel.com.ng';
 
   jest.setTimeout(30000);
 
