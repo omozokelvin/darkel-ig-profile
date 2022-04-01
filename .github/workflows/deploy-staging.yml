@@ -1,4 +1,4 @@
-name: Shipkie Staging Deployment
+name: Darkel IG Profile Staging Deployment
 
 on:
   push:
