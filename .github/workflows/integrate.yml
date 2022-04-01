@@ -1,4 +1,4 @@
-name: Shipkie Continuous Integration and Build Check
+name: Darkel IG Profile Continuous Integration and Build Check
 
 on:
   pull_request:
