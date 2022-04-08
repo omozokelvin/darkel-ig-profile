@@ -21,7 +21,7 @@ router.get('/profile/:username', async (req, res) => {
       status: res.status,
       data: null,
       success: false,
-      message: 'Failed',
+      message: 'Failed to read profile information',
     });
   }
 });

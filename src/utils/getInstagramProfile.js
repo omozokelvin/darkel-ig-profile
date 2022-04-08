@@ -1,10 +1,10 @@
-const puppeteer = require('puppeteer');
+const chromium = require('chrome-aws-lambda');
 
 const getInstagramProfile = async (username) => {
   try {
     const urlToRead = `https://www.instagram.com/${username}/`;
 
-    const browser = await puppeteer.launch({
+    const browser = await chromium.puppeteer.launch({
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
 
